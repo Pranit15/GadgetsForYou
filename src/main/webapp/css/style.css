@@ -1,0 +1,16 @@
+
+/* navbar color*/ 
+.custom-bg {
+    background: #283593!important;  /*blue-#283593, green-#00796B*/
+}
+
+/* red asterisk for required credentials*/
+.required-field::after {
+    content: "*";
+    color: red;
+}
+
+/* admin page */
+.admin .card:hover {
+    background: #e2e2e2;
+}
